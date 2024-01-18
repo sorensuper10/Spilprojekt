@@ -145,9 +145,6 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
         AssetPool.addSound("assets/sounds/mariodie.ogg",false);
         AssetPool.addSound("assets/sounds/suii.ogg",false);
         AssetPool.addSound("assets/sounds/suiii.ogg",false);
-        AssetPool.addSound("assets/sounds/music.ogg",true);
-        AssetPool.addSound("assets/sounds/music1.ogg",true);
-        AssetPool.addSound("assets/sounds/music2.ogg",true);
         AssetPool.addSound("assets/sounds/mariojump.ogg",false);
         AssetPool.addSound("assets/sounds/bump1.ogg",false);
         AssetPool.addSound("assets/sounds/breakblock.ogg", false);
@@ -156,8 +153,6 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
         AssetPool.addSound("assets/sounds/pipe1.ogg", false);
         AssetPool.addSound("assets/sounds/powerup1.ogg", false);
         AssetPool.addSound("assets/sounds/hurt.ogg", false);
-
-        //AssetPool.getSound(("assets/sounds/music2.ogg")).play();
 
         for (GameObject g : scene.getGameObjects()) {
             if (g.getComponent(SpriteRenderer.class) != null) {
