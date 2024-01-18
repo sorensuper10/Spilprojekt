@@ -117,6 +117,9 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
         AssetPool.addSpritesheet("assets/images/spritesheet31.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet31.png"),
                         34, 34, 4, 0));
+        AssetPool.addSpritesheet("assets/images/spritesheet38.png",
+                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet38.png"),
+                        32, 32, 4, 0));
 
         AssetPool.addSound("assets/sounds/main-theme-overworld.ogg", true);
         AssetPool.addSound("assets/sounds/flagpole.ogg", false);
@@ -140,6 +143,13 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
         AssetPool.addSound("assets/sounds/music1.ogg",true);
         AssetPool.addSound("assets/sounds/music2.ogg",true);
         AssetPool.addSound("assets/sounds/mariojump.ogg",false);
+        AssetPool.addSound("assets/sounds/bump1.ogg",false);
+        AssetPool.addSound("assets/sounds/breakblock.ogg", false);
+        AssetPool.addSound("assets/sounds/breakblock1.ogg", false);
+        AssetPool.addSound("assets/sounds/coin1.ogg", false);
+        AssetPool.addSound("assets/sounds/pipe1.ogg", false);
+        AssetPool.addSound("assets/sounds/powerup1.ogg", false);
+        AssetPool.addSound("assets/sounds/hurt.ogg", false);
 
         //AssetPool.getSound(("assets/sounds/music2.ogg")).play();
 
@@ -245,7 +255,7 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
                 ImGui.popID();
                 ImGui.sameLine();
 
-                Spritesheet items = AssetPool.getSpritesheet("assets/images/spritesheet19.png");
+                Spritesheet items = AssetPool.getSpritesheet("assets/images/spritesheet38.png");
                 sprite = items.getSprite(0);
                 id = sprite.getTexId();
                 texCoords = sprite.getTexCoords();

@@ -233,7 +233,7 @@ public class PlayerController extends Component {
     public void powerup() {
         if (playerState == PlayerState.Small) {
             playerState = PlayerState.Big;
-            AssetPool.getSound("assets/sounds/powerup.ogg").play();
+            AssetPool.getSound("assets/sounds/powerup1.ogg").play();
             gameObject.transform.scale.y = 0.42f;
             PillboxCollider pb = gameObject.getComponent(PillboxCollider.class);
             if (pb != null) {
@@ -243,7 +243,7 @@ public class PlayerController extends Component {
             }
         } else if (playerState == PlayerState.Big) {
             playerState = PlayerState.Fire;
-            AssetPool.getSound("assets/sounds/powerup.ogg").play();
+            AssetPool.getSound("assets/sounds/powerup1.ogg").play();
         }
 
         stateMachine.trigger("powerup");
@@ -318,11 +318,11 @@ public class PlayerController extends Component {
                 pb.setHeight(0.25f);
             }
             hurtInvincibilityTimeLeft = hurtInvincibilityTime;
-            AssetPool.getSound("assets/sounds/pipe.ogg").play();
+            AssetPool.getSound("assets/sounds/hurt.ogg").play();
         } else if (playerState == PlayerState.Fire) {
             this.playerState = PlayerState.Big;
             hurtInvincibilityTimeLeft = hurtInvincibilityTime;
-            AssetPool.getSound("assets/sounds/pipe.ogg").play();
+            AssetPool.getSound("assets/sounds/hurt.ogg").play();
         }
     }
 

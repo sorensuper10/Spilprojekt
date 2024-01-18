@@ -395,7 +395,7 @@ public class Prefabs {
     }
 
     public static GameObject generateQuestionBlock() {
-        Spritesheet playerSprites = AssetPool.getSpritesheet("assets/images/spritesheet19.png");
+        Spritesheet playerSprites = AssetPool.getSpritesheet("assets/images/spritesheet38.png");
         GameObject questionBlock = generateSpriteObject(playerSprites.getSprite(1), 0.25f, 0.25f);
 
         AnimationState flicker = new AnimationState();
@@ -408,7 +408,7 @@ public class Prefabs {
 
         AnimationState inactive = new AnimationState();
         inactive.title = "Inactive";
-        inactive.addFrame(playerSprites.getSprite(1), 0.1f);
+        inactive.addFrame(playerSprites.getSprite(3), 0.1f);
         inactive.setLoop(false);
 
         StateMachine stateMachine = new StateMachine();

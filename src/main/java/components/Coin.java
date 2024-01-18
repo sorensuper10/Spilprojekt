@@ -30,7 +30,7 @@ public class Coin extends Component {
     @Override
     public void preSolve(GameObject obj, Contact contact, Vector2f contactNormal) {
         if (obj.getComponent(PlayerController.class) != null) {
-            AssetPool.getSound("assets/sounds/coin.ogg").play();
+            AssetPool.getSound("assets/sounds/coin1.ogg").play();
             playAnim = true;
             contact.setEnabled(false);
         }

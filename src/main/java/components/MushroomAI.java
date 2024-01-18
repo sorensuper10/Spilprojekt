@@ -37,7 +37,7 @@ public class MushroomAI extends Component {
                 if (playerController.isSmall()) {
                     playerController.powerup();
                 } else {
-                    AssetPool.getSound("assets/sounds/coin.ogg").play();
+                    AssetPool.getSound("assets/sounds/coin1.ogg").play();
                 }
                 this.gameObject.destroy();
                 hitPlayer = true;
