@@ -117,6 +117,12 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
         AssetPool.addSpritesheet("assets/images/spritesheet31.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet31.png"),
                         34, 34, 4, 0));
+        AssetPool.addSpritesheet("assets/images/spritesheet35.png",
+                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet35.png"),
+                        32, 32, 4, 0));
+        AssetPool.addSpritesheet("assets/images/spritesheet36.png",
+                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet36.png"),
+                        32, 32, 4, 0));
         AssetPool.addSpritesheet("assets/images/spritesheet38.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet38.png"),
                         32, 32, 4, 0));
@@ -228,7 +234,7 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
 
             if (ImGui.beginTabItem("Prefabs")) {
                 int uid = 0;
-                Spritesheet playerSprites = AssetPool.getSpritesheet("assets/images/spritesheet8.png");
+                Spritesheet playerSprites = AssetPool.getSpritesheet("assets/images/spritesheet35.png");
                 Sprite sprite = playerSprites.getSprite(0);
                 float spriteWidth = sprite.getWidth() * 4;
                 float spriteHeight = sprite.getHeight() * 4;
