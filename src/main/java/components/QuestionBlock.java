@@ -4,7 +4,7 @@ import jade.GameObject;
 import jade.Prefabs;
 import jade.Window;
 
-public class QuestionBlock extends Block {
+public class QuestionBlock extends Block1 {
     private enum BlockType {
         Coin,
         Powerup,

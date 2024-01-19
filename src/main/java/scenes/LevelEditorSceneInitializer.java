@@ -29,8 +29,6 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
     @Override
     public void init(Scene scene) {
         sprites = AssetPool.getSpritesheet("assets/images/spritesheet27.png");
-        sprites1 = AssetPool.getSpritesheet("assets/images/spritesheet31.png");
-        sprites2 = AssetPool.getSpritesheet("assets/images/spritesheet26.png");
         Spritesheet gizmos = AssetPool.getSpritesheet("assets/images/gizmos.png");
 
         levelEditorStuff = scene.createGameObject("LevelEditor");
@@ -47,28 +45,15 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
     public void loadResources(Scene scene) {
         AssetPool.getShader("assets/shaders/default.glsl");
 
-        AssetPool.addSpritesheet("assets/images/decorationsAndBlocks.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/spritesheets/decorationsAndBlocks.png"),
-                        16, 16, 81, 0));
-        AssetPool.addSpritesheet("assets/images/spritesheet8.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet8.png"),
-                        32, 32, 4, 0));
-        AssetPool.addSpritesheet("assets/images/turtle.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/turtle.png"),
-                        16, 24, 4, 0));
-        AssetPool.addSpritesheet("assets/images/bigSpritesheet.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/bigSpritesheet.png"),
-                        16, 32, 42, 0));
-        AssetPool.addSpritesheet("assets/images/pipes.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/pipes.png"),
-                        32, 32, 4, 0));
-        AssetPool.addSpritesheet("assets/images/items.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/items.png"),
-                        16, 16, 43, 0));
         AssetPool.addSpritesheet("assets/images/gizmos.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/gizmos.png"),
                         24, 48, 3, 0));
-        AssetPool.getTexture("assets/images/blendImage2.png");
+        AssetPool.addSpritesheet("assets/images/spritesheet7.png",
+                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet7.png"),
+                        32, 32, 4, 0));
+        AssetPool.addSpritesheet("assets/images/spritesheet8.png",
+                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet8.png"),
+                        32, 32, 4, 0));
         AssetPool.addSpritesheet("assets/images/spritesheet11.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet11.png"),
                         32, 32, 4, 0));
@@ -81,41 +66,20 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
         AssetPool.addSpritesheet("assets/images/spritesheet14.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet14.png"),
                         32, 32, 4, 0));
-        AssetPool.addSpritesheet("assets/images/spritesheet15.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet15.png"),
-                        32, 32, 4, 0));
         AssetPool.addSpritesheet("assets/images/spritesheet16.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet16.png"),
                         32, 32, 4, 0));
-        AssetPool.addSpritesheet("assets/images/spritesheet18.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet18.png"),
-                        32, 32, 4, 0));
-        AssetPool.addSpritesheet("assets/images/spritesheet19.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet19.png"),
-                        32, 32, 4, 0));
-        AssetPool.addSpritesheet("assets/images/spritesheet20.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet20.png"),
-                        34, 34, 4, 0));
         AssetPool.addSpritesheet("assets/images/spritesheet24.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet24.png"),
                         34, 34, 4, 0));
         AssetPool.addSpritesheet("assets/images/spritesheet25.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet25.png"),
                         34, 34, 4, 0));
-        AssetPool.addSpritesheet("assets/images/spritesheet26.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet26.png"),
-                        34, 34, 4, 0));
         AssetPool.addSpritesheet("assets/images/spritesheet27.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet27.png"),
                         34, 34, 5, 0));
         AssetPool.addSpritesheet("assets/images/spritesheet28.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet28.png"),
-                        34, 34, 4, 0));
-        AssetPool.addSpritesheet("assets/images/spritesheet7.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet7.png"),
-                        32, 32, 4, 0));
-        AssetPool.addSpritesheet("assets/images/spritesheet31.png",
-                new Spritesheet(AssetPool.getTexture("assets/images/spritesheet31.png"),
                         34, 34, 4, 0));
         AssetPool.addSpritesheet("assets/images/spritesheet35.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet35.png"),
@@ -127,31 +91,16 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheet38.png"),
                         32, 32, 4, 0));
 
-        AssetPool.addSound("assets/sounds/main-theme-overworld.ogg", true);
-        AssetPool.addSound("assets/sounds/flagpole.ogg", false);
-        AssetPool.addSound("assets/sounds/break_block.ogg", false);
-        AssetPool.addSound("assets/sounds/bump.ogg", false);
-        AssetPool.addSound("assets/sounds/coin.ogg", false);
-        AssetPool.addSound("assets/sounds/gameover.ogg", false);
-        AssetPool.addSound("assets/sounds/jump-small.ogg", false);
-        AssetPool.addSound("assets/sounds/mario_die.ogg", false);
-        AssetPool.addSound("assets/sounds/pipe.ogg", false);
-        AssetPool.addSound("assets/sounds/powerup.ogg", false);
-        AssetPool.addSound("assets/sounds/powerup_appears.ogg", false);
-        AssetPool.addSound("assets/sounds/stage_clear.ogg", false);
-        AssetPool.addSound("assets/sounds/stomp.ogg", false);
-        AssetPool.addSound("assets/sounds/kick.ogg", false);
-        AssetPool.addSound("assets/sounds/invincible.ogg", false);
-        AssetPool.addSound("assets/sounds/mariodie.ogg",false);
-        AssetPool.addSound("assets/sounds/suii.ogg",false);
         AssetPool.addSound("assets/sounds/suiii.ogg",false);
-        AssetPool.addSound("assets/sounds/mariojump.ogg",false);
-        AssetPool.addSound("assets/sounds/bump1.ogg",false);
         AssetPool.addSound("assets/sounds/breakblock.ogg", false);
         AssetPool.addSound("assets/sounds/breakblock1.ogg", false);
+        AssetPool.addSound("assets/sounds/bump1.ogg",false);
         AssetPool.addSound("assets/sounds/coin1.ogg", false);
+        AssetPool.addSound("assets/sounds/mariojump.ogg",false);
+        AssetPool.addSound("assets/sounds/mariodie.ogg",false);
         AssetPool.addSound("assets/sounds/pipe1.ogg", false);
         AssetPool.addSound("assets/sounds/powerup1.ogg", false);
+        AssetPool.addSound("assets/sounds/suii.ogg",false);
         AssetPool.addSound("assets/sounds/hurt.ogg", false);
 
         for (GameObject g : scene.getGameObjects()) {
