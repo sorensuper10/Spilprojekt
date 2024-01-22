@@ -135,7 +135,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -1027,7 +1027,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -1239,7 +1239,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -1451,7 +1451,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -1663,7 +1663,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -1875,7 +1875,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -2087,7 +2087,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -2299,7 +2299,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -2511,7 +2511,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -2723,7 +2723,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -2935,7 +2935,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -3147,7 +3147,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -3359,7 +3359,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -3571,7 +3571,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -3783,7 +3783,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -3995,7 +3995,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -4207,7 +4207,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -4419,7 +4419,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -4631,7 +4631,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -4843,7 +4843,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             }
           ],
@@ -5265,7 +5265,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -5487,7 +5487,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -5825,7 +5825,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -6047,7 +6047,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -6269,7 +6269,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -6491,7 +6491,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -6713,7 +6713,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -6935,7 +6935,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -7157,7 +7157,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -7380,7 +7380,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -7602,7 +7602,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -7824,7 +7824,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -8046,7 +8046,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -8268,7 +8268,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -8490,7 +8490,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -8944,7 +8944,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.113233075,
+              "time": 0.080213055,
               "doesLoop": true
             },
             {
@@ -9760,7 +9760,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -10027,7 +10027,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -10294,7 +10294,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -10561,7 +10561,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -10828,7 +10828,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -11095,7 +11095,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -11362,7 +11362,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -11629,7 +11629,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -11896,7 +11896,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -12163,7 +12163,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -12430,7 +12430,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -12697,7 +12697,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -12964,7 +12964,7 @@
                   "frameTime": 0.23
                 }
               ],
-              "time": 0.1296048,
+              "time": 0.21324061,
               "doesLoop": true
             },
             {
@@ -13676,7 +13676,7 @@
                   "frameTime": 0.1
                 }
               ],
-              "time": 0.06632147,
+              "time": 0.05067978,
               "doesLoop": false
             },
             {
