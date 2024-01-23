@@ -108,7 +108,7 @@ public class Prefabs {
 
         AnimationState die = new AnimationState();
         die.title = "Die";
-        die.addFrame(firePlayerSprites.getSprite(2), 0.1f);
+        die.addFrame(bigPlayerSprites.getSprite(0), 0.1f);
         die.setLoop(false);
 
         StateMachine stateMachine = new StateMachine();
